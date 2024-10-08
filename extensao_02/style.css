@@ -1,0 +1,43 @@
+form {
+  background-color: bisque;
+  width: 300px;
+  /*verificar essa linha*/
+  display: flex;
+  /*verificar essa linha*/
+  flex-wrap: wrap;
+  /* quando atingir 100% do container ele vai quebrar e ir para a linha de baixo */
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+}
+.insira_url {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #fafafa;
+  border-radius: 5px;
+}
+
+.go {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fafafa;
+}
+button {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: green;
+  color: #fafafa;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.button:hover {
+  background-color: rgb(3, 156, 3);
+  font-size: medium;
+  font-weight: 700px;
+}
